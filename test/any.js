@@ -3,6 +3,7 @@ var listXf = require('./helpers/listXf');
 var R = require('../source');
 var eq = require('./shared/eq');
 
+console.log('HELLO, WORLD!');
 
 describe('any', function() {
   var odd = function(n) {return n % 2 === 1;};
